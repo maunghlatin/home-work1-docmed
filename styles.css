@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all .3s ease-out;
+}
+/* global section start  */
+:root{
+    --blue:#0574dc;
+    --bluelite:#3d9df8;
+    --white:#ffffff;
+    --black:#444444;
+    --blacklite:#757779;
+}
+.btn{
+    padding: 10px 20px;
+    outline: none;
+    padding: 10px 20px;
+    background: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--bluelite);
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: var(--white);
+    color: var(--bluelite);
+}
+
+
+/* global section ends  */
+/* top header start  */
+.header-topbar {
+    padding: 12px 6%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-topbar .topleft a, .header-topbar .topright a{
+    color: var(--blacklite);
+    margin: 0 5px;
+    text-decoration: none;
+}
+.header-topbar .topright a i{
+    color: var(--bluelite);
+}
+.header-topbar .topright a i:hover,.header-topbar i:hover{
+    color: var(--blue);
+}
+
+/* top header ends  */
+/* headed start  */
+header{
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 50px rgba(65, 65, 65, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 90000;
+    background-color: #ffffff;
+}
+header .logo a{
+    text-transform: capitalize;
+    color: var(--blue);
+    font-size: 2.4rem;
+    font-weight: bolder;
+    padding: 0 10px;
+    text-decoration: none;
+}
+header .logo a i{
+    padding: 5px;
+    background: linear-gradient(#0574dc,#5db2ff);
+    color: var(--white);
+    border-radius: 5px;
+    margin-left: 4px;
+
+
+}
+header .navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar ul li{
+    padding: 0 15px;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color: var(--blacklite);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+header .navbar ul li a:hover{
+    color: var(--black);
+}
+
+
+
+
+
+/* headed ends  */
+/* hero section start  */
+.herosection{
+    background-image: url(xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 6%;
+    height: 80vh;
+    align-items: center;
+}
+.herosection h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 30px 0;
+    font-weight: 400;
+}
+.herosection h1 span{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.herosection p{
+    width: 50%;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+
+/* hero section ends  */
+/* section 1 start */
+.section1{
+    background-color: var(--bluelite);
+    padding: 0 6%;
+    display: flex;
+}
+.section1 .box{
+    padding: 20px;
+}
+.section1 .box a i{
+    padding-bottom: 20px;
+    color: var(--white);
+    font-size: 4rem;
+}
+.section1 .box h3{
+    color:var(--white);
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.section1 .box p{
+    color: var(--white);
+    font-size: 1rem;
+}
+.section1 .box .btn3{
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    transition: .2s ease-in-out;
+}
+.section1 .box .btn3:hover{
+    background-color:var(--white);
+    color: var(--bluelite);
+}
+.section1 .box:nth-child(2){
+    background-color: var(--blue);
+}
+/* section 1 ends */
+/* section 2 start  */
+.section2{
+    padding: 20px 6%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    position: relative;
+
+}
+.section2 .images{
+    position: relative;
+    width: 50wh;
+}
+.section2 .images .image1{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 300px;
+}
+.section2 .images .image2{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 300px;
+}
+.section2 .content{
+    position: absolute;
+    left: 50%;
+}
+.section2 .content h3{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 60px;
+    color: var(--black);
+    position: relative;
+}
+
+.section2 .content h3::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: var(--bluelite);
+    color: var(--black);
+    position: absolute;
+    top: 100%;
+}
+.section2 .content h1{
+    padding: 30px 0 20px 0;
+    text-transform:capitalize;
+}
+.section2 .content p{
+    color: var(--blacklite);
+    padding-bottom: 20px;
+}
+.section2 .content ul li{
+    list-style: disc;
+}
+
+/* section 2 ends  */
+
