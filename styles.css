@@ -14,6 +14,7 @@
     --white:#ffffff;
     --black:#444444;
     --blacklite:#757779;
+    --gray:#f9f7f7;
 }
 .btn{
     padding: 10px 20px;
@@ -239,4 +240,199 @@ header .navbar ul li a:hover{
 }
 
 /* section 2 ends  */
+/* section 3 start  */
+.section3{
+    padding: 50px 6%;
+    background-color: var(--gray);
+}
+.section3 h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.section3 h1::before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: var(--bluelite);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section3 p{
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: var(--blacklite);
+    padding: 10px 0;
+}
+.section3 .boxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section3 .boxcontainer .box{
+    margin: 20px 0;
+    background-color: var(--white);
+    min-width: 31%;
+    max-width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.section3 .boxcontainer .box .image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.section3 .boxcontainer .box .image img{
+    width: 100%;
+}
+.section3 .boxcontainer .box:hover img{
+    transform: scale(1.2);
+}
+.section3 .boxcontainer .box h3,
+.section3 .boxcontainer .box p{
+    padding: 10px 20px;
+    text-align: left;
+}
+.section3 .boxcontainer .box h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.section3 .boxcontainer .box a{
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 20px ;
+    text-decoration: none;
+    color: var(--bluelite);
+}
+
+
+
+/* section 3 ends  */
+/* section 4 start  */
+.section4{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--black);
+    background-image: url(x1.png.pagespeed.ic.NH__KL9wkr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.section4 i{
+    padding-top: 80px;
+    font-size: 5rem;
+    color: var(--white);
+}
+.section4 p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    color: var(--white);
+    text-align: center;
+    padding: 0 20%;
+}
+
+
+
+/* section 4 ends  */
+/* section 5 start  */
+.tabcontainer{
+    width: 100%;
+    height: 90px;
+    padding: 0 6%;
+    background-color: var(--gray);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+
+}
+.section5 h2{
+    height: 100%;
+    padding: 0 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.section5 h2:nth-child(odd){
+    background-color: var(--white);
+}
+.section5 .content{
+    position: relative;
+    padding: 0 6%;
+    width: 100%;
+    height: 50vh;
+}
+.section5 .content i{
+    position: absolute;
+    top: 30px;
+    left: 6%;
+    font-size: 5rem;
+    padding: 20px;
+    background-color: var(--bluelite);
+    color: var(--white);
+    border-radius: 50%;
+}
+.section5 .content h3{
+    position: absolute;
+    top: 160px;
+    left: 6%;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform:capitalize;
+}
+.section5 .content p{
+    position: absolute;
+    top: 210px;
+    left: 6%;
+    font-size: 1rem;
+    color: var(--blacklite);
+    width: 35%;
+}
+.section5 .content .image{
+    position: absolute;
+    top:0 ;
+    right: 6%;
+    border-radius: 0;
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+    background-image: url(xbusiness.png.pagespeed.ic.T1vlgqVj2y.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* section 6 start  */
+.section6{
+    width: 100%;
+    padding: 20px 6%;
+    background-color: var(--gray);
+}
+.section6 h1{
+    color: var(--black);
+    text-align: left;
+    font-size: 3rem;
+    
+}
+.section6 .boxcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+}
+.section6 .boxcontainer .box{
+    background-color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+.section6 .boxcontainer .box .imgaes{
+    width: 200px;
+    border-radius: 50%;
+}
 
