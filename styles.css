@@ -15,6 +15,7 @@
     --black:#444444;
     --blacklite:#757779;
     --gray:#f9f7f7;
+    --footer:#1b1a1a;
 }
 .btn{
     padding: 10px 20px;
@@ -422,17 +423,172 @@ header .navbar ul li a:hover{
     
 }
 .section6 .boxcontainer{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
 .section6 .boxcontainer .box{
+    min-width: 350px;
     background-color: var(--white);
-    text-align: center;
-    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 .section6 .boxcontainer .box .images{
     width: 100%;
-    border-radius: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+.section6 .boxcontainer .box:hover{
+    background-color: var(--bluelite);
+    color: var(--white);
+}
+.section6 .boxcontainer .box:hover .images img{
+    transform: scale(1.1);
+}
+.section6 .boxcontainer .box .images img{
+    width: 100%;
+    height: 100%;
+}
+.section6 .boxcontainer .box h2,
+.section6 .boxcontainer .box p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* section 7 start  */
+.section7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section7 .left{
+    background-color: var(--bluelite);
+    width: 50%;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-items: start;
+    justify-content: center;
+    padding-left: 6%;
+    color: var(--white);
+    background-image: url(xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: b;
+}
+.section7 .right{
+    background-color: var(--bluelite);
+    width: 50%;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-items: start;
+    justify-content: center;
+    padding-left: 6%;
+    color: var(--white);
+    background-image: url(xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: b;
+}
+.section7 .btn2{
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    padding: 8px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+}
+/* footer section start  */
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--footer);
+    padding: 50px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer h3{
+    color: var(--white);
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footer .box .logo{
+    padding-bottom: 20px;
+
+}
+.footer .box .logo a{
+    text-transform: capitalize;
+    color: var(--white);
+    font-size: 2.4rem;
+    font-weight: bolder;
+    padding: 0 10px;
+    text-decoration: none;
+
+}
+.footer .box .logo a i{
+    padding: 5px;
+    background: linear-gradient(#0574dc,#5db2ff);
+    color: var(--white);
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.footer .box{
+    display: flex;
+    flex-direction: column; 
+    color: var(--blacklite);  
+}
+.footer .box .social{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.footer .box .social a{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: var(--blacklite);
+    color: var(--gray);
+    display: inline-block;
+    border-radius: 5px;
+}
+.footer .box .social a:hover{
+    background-color: var(--gray);
+    color: var(--blacklite);
+}
+.footer .box a{
+    color: var(--blacklite);
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.footer .box a:hover{
+    color: var(--gray);
+}
+
+/* copy right section start  */
+.copyright{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright a{
+    color: var(--blue);
+    text-decoration: none;
 }
 
