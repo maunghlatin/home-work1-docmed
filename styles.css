@@ -431,8 +431,8 @@ header .navbar ul li a:hover{
     text-align: center;
     padding: 20px;
 }
-.section6 .boxcontainer .box .imgaes{
-    width: 200px;
+.section6 .boxcontainer .box .images{
+    width: 100%;
     border-radius: 50%;
 }
 
