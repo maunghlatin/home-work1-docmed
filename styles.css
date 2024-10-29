@@ -24,7 +24,7 @@
     background: var(--blue);
     color: var(--white);
     border: 1px solid var(--bluelite);
-    font-size: 1rem;
+    font-size: .8rem;
     border-radius: 5px;
     text-transform: capitalize;
 }
@@ -47,6 +47,7 @@
     color: var(--blacklite);
     margin: 0 5px;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 .header-topbar .topright a i{
     color: var(--bluelite);
@@ -71,7 +72,7 @@ header{
 header .logo a{
     text-transform: capitalize;
     color: var(--blue);
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     padding: 0 10px;
     text-decoration: none;
@@ -97,7 +98,7 @@ header .navbar ul li{
 header .navbar ul li a{
     text-decoration: none;
     color: var(--blacklite);
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-transform: capitalize;
 }
 header .navbar ul li a:hover{
@@ -115,24 +116,24 @@ header .navbar ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 100px 6%;
+    padding: 80px 6%;
     height: 80vh;
     align-items: center;
 }
 .herosection h1{
     text-transform: capitalize;
-    font-size: 3rem;
-    padding: 30px 0;
+    font-size: 2rem;
+    padding: 10px 0;
     font-weight: 400;
 }
 .herosection h1 span{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
 }
 .herosection p{
     width: 50%;
     padding-bottom: 30px;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 
@@ -149,23 +150,23 @@ header .navbar ul li a:hover{
 .section1 .box a i{
     padding-bottom: 20px;
     color: var(--white);
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .section1 .box h3{
     color:var(--white);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 0;
 }
 .section1 .box p{
     color: var(--white);
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .section1 .box .btn3{
     outline: none;
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 8px 20px;
     margin: 20px 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: capitalize;
     border-radius: 5px;
     background-color: transparent;
@@ -196,15 +197,15 @@ header .navbar ul li a:hover{
 }
 .section2 .images .image1{
     position: absolute;
-    top: 100px;
+    top: 40px;
     left: 150px;
-    width: 300px;
+    width: 200px;
 }
 .section2 .images .image2{
     position: absolute;
-    top: 250px;
-    left: 350px;
-    width: 300px;
+    top: 150px;
+    left: 250px;
+    width: 200px;
 }
 .section2 .content{
     position: absolute;
@@ -231,13 +232,19 @@ header .navbar ul li a:hover{
 .section2 .content h1{
     padding: 30px 0 20px 0;
     text-transform:capitalize;
+    font-size: 1.5rem;
 }
 .section2 .content p{
     color: var(--blacklite);
     padding-bottom: 20px;
+    font-size: 0.8rem;
+}
+.section2 .content ul{
+    padding-bottom: 10px;
 }
 .section2 .content ul li{
     list-style: disc;
+    font-size: 0.8rem;
 }
 
 /* section 2 ends  */
@@ -248,7 +255,7 @@ header .navbar ul li a:hover{
 }
 .section3 h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: capitalize;
     position: relative;
 }
@@ -264,10 +271,10 @@ header .navbar ul li a:hover{
 }
 .section3 p{
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: capitalize;
     color: var(--blacklite);
-    padding: 10px 0;
+    padding: 15px 0;
 }
 .section3 .boxcontainer{
     display: flex;
@@ -279,34 +286,38 @@ header .navbar ul li a:hover{
 .section3 .boxcontainer .box{
     margin: 20px 0;
     background-color: var(--white);
-    min-width: 31%;
-    max-width: 33%;
+    max-width: 32%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 .section3 .boxcontainer .box .image{
     width: 100%;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
 }
 .section3 .boxcontainer .box .image img{
     width: 100%;
+    height: 100%;
 }
 .section3 .boxcontainer .box:hover img{
     transform: scale(1.2);
 }
 .section3 .boxcontainer .box h3,
 .section3 .boxcontainer .box p{
-    padding: 10px 20px;
+    padding-left: 20px;
     text-align: left;
 }
 .section3 .boxcontainer .box h3{
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.section3 .boxcontainer .box p{
+    font-size: 0.8rem;
 }
 .section3 .boxcontainer .box a{
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 20px ;
     text-decoration: none;
     color: var(--bluelite);
@@ -327,12 +338,12 @@ header .navbar ul li a:hover{
 }
 .section4 i{
     padding-top: 80px;
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--white);
 }
 .section4 p{
     padding-top: 30px;
-    font-size: 1.4rem;
+    font-size: 0.8rem;
     color: var(--white);
     text-align: center;
     padding: 0 20%;
@@ -355,7 +366,7 @@ header .navbar ul li a:hover{
 .section5 h2{
     height: 100%;
     padding: 0 20px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -372,30 +383,22 @@ header .navbar ul li a:hover{
     height: 50vh;
 }
 .section5 .content i{
-    position: absolute;
-    top: 30px;
-    left: 6%;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 20px;
     background-color: var(--bluelite);
     color: var(--white);
     border-radius: 50%;
+    margin-top: 70px;
 }
 .section5 .content h3{
-    position: absolute;
-    top: 160px;
-    left: 6%;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--black);
     text-transform:capitalize;
 }
 .section5 .content p{
-    position: absolute;
-    top: 210px;
-    left: 6%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--blacklite);
-    width: 35%;
+    width: 45%;
 }
 .section5 .content .image{
     position: absolute;
@@ -419,7 +422,7 @@ header .navbar ul li a:hover{
 .section6 h1{
     color: var(--black);
     text-align: left;
-    font-size: 3rem;
+    font-size: 1.5rem;
     
 }
 .section6 .boxcontainer{
@@ -427,17 +430,15 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 .section6 .boxcontainer .box{
-    min-width: 350px;
     background-color: var(--white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 .section6 .boxcontainer .box .images{
     width: 100%;
-    height: 300px;
     overflow: hidden;
 }
 .section6 .boxcontainer .box:hover{
@@ -451,6 +452,12 @@ header .navbar ul li a:hover{
     width: 100%;
     height: 100%;
 }
+.section6 .boxcontainer .box h2{
+    font-size: 1rem;
+}
+.section6 .boxcontainer .box p{
+    font-size: 0.8rem;
+}
 .section6 .boxcontainer .box h2,
 .section6 .boxcontainer .box p{
     text-align: center;
@@ -462,7 +469,13 @@ header .navbar ul li a:hover{
     justify-content: space-between;
     align-items: center;
 }
-
+.section7 h1{
+    font-size: 1.5rem;
+}
+.section7 p{
+    font-size: 0.8rem;
+    width: 50%;
+}
 .section7 .left{
     background-color: var(--bluelite);
     width: 50%;
@@ -479,7 +492,6 @@ header .navbar ul li a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    backdrop-filter: b;
 }
 .section7 .right{
     background-color: var(--bluelite);
@@ -523,7 +535,7 @@ header .navbar ul li a:hover{
 .footer h3{
     color: var(--white);
     padding-bottom: 40px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 .footer .box .logo{
@@ -533,11 +545,15 @@ header .navbar ul li a:hover{
 .footer .box .logo a{
     text-transform: capitalize;
     color: var(--white);
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: bolder;
     padding: 0 10px;
     text-decoration: none;
 
+}
+.footer .box p{
+    font-size: 0.8rem;
+    width: 70%;
 }
 .footer .box .logo a i{
     padding: 5px;
@@ -572,6 +588,7 @@ header .navbar ul li a:hover{
     color: var(--blacklite);
     padding-bottom: 10px;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 .footer .box a:hover{
     color: var(--gray);
@@ -586,9 +603,18 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8rem;
 }
 .copyright a{
     color: var(--blue);
     text-decoration: none;
+}  
+
+
+/* media querries  */
+@media only screen and (max-width: 989px){
+    
 }
+    
+
 
