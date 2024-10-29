@@ -17,6 +17,9 @@
     --gray:#f9f7f7;
     --footer:#1b1a1a;
 }
+p{
+    font-size: 0.8rem;
+}
 .btn{
     padding: 10px 20px;
     outline: none;
@@ -133,7 +136,6 @@ header .navbar ul li a:hover{
 .herosection p{
     width: 50%;
     padding-bottom: 30px;
-    font-size: 0.8rem;
 }
 
 
@@ -159,7 +161,6 @@ header .navbar ul li a:hover{
 }
 .section1 .box p{
     color: var(--white);
-    font-size: 0.8rem;
 }
 .section1 .box .btn3{
     outline: none;
@@ -237,7 +238,6 @@ header .navbar ul li a:hover{
 .section2 .content p{
     color: var(--blacklite);
     padding-bottom: 20px;
-    font-size: 0.8rem;
 }
 .section2 .content ul{
     padding-bottom: 10px;
@@ -271,7 +271,6 @@ header .navbar ul li a:hover{
 }
 .section3 p{
     text-align: center;
-    font-size: 0.8rem;
     text-transform: capitalize;
     color: var(--blacklite);
     padding: 15px 0;
@@ -312,9 +311,6 @@ header .navbar ul li a:hover{
     font-size: 1rem;
     padding-top: 10px;
 }
-.section3 .boxcontainer .box p{
-    font-size: 0.8rem;
-}
 .section3 .boxcontainer .box a{
     text-transform: capitalize;
     font-size: 0.8rem;
@@ -343,7 +339,6 @@ header .navbar ul li a:hover{
 }
 .section4 p{
     padding-top: 30px;
-    font-size: 0.8rem;
     color: var(--white);
     text-align: center;
     padding: 0 20%;
@@ -396,7 +391,6 @@ header .navbar ul li a:hover{
     text-transform:capitalize;
 }
 .section5 .content p{
-    font-size: 0.8rem;
     color: var(--blacklite);
     width: 45%;
 }
@@ -455,9 +449,6 @@ header .navbar ul li a:hover{
 .section6 .boxcontainer .box h2{
     font-size: 1rem;
 }
-.section6 .boxcontainer .box p{
-    font-size: 0.8rem;
-}
 .section6 .boxcontainer .box h2,
 .section6 .boxcontainer .box p{
     text-align: center;
@@ -473,7 +464,6 @@ header .navbar ul li a:hover{
     font-size: 1.5rem;
 }
 .section7 p{
-    font-size: 0.8rem;
     width: 50%;
 }
 .section7 .left{
@@ -552,7 +542,6 @@ header .navbar ul li a:hover{
 
 }
 .footer .box p{
-    font-size: 0.8rem;
     width: 70%;
 }
 .footer .box .logo a i{
